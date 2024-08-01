@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="412.00085px" height="799.33154px" viewBox="0 0 412.00085 799.33154" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="objectBoundingBox" x1="1.0194154" y1="0.028774044" x2="0.4660185" y2="0.97581536" id="gradient_1">
+      <stop offset="9.420517%" stop-color="#245666" stop-opacity="0.9490196" />
+      <stop offset="40.6319%" stop-color="#245666" stop-opacity="0.8784314" />
+      <stop offset="74.83008%" stop-color="#518575" stop-opacity="0.44313726" />
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="1.0194154" y1="0.028774044" x2="0.4660185" y2="0.97581536" id="gradient_2">
+      <stop offset="9.420517%" stop-color="#245666" stop-opacity="0.9490196" />
+      <stop offset="40.6319%" stop-color="#245666" stop-opacity="0.8784314" />
+      <stop offset="74.83008%" stop-color="#518575" stop-opacity="0.7607843" />
+    </linearGradient>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0" result="hardAlpha" />
+      <feMorphology radius="3" operator="erode" in="SourceAlpha" result="effect0_innerShadow" />
+      <feOffset dx="3" dy="2" />
+      <feGaussianBlur stdDeviation="2.5" />
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0.49803922 0" />
+      <feBlend mode="normal" in2="shape" result="effect0_innerShadow" />
+    </filter>
+    <path d="M0 0L412.001 0L412 789.201C412 789.201 411.983 805.684 367.967 796.6C323.951 787.517 318.157 778.462 288.189 758.426C288.189 758.426 201.606 687.512 159.031 665.793C109.035 640.287 82.1908 639.61 43.1463 651.322C4.10178 663.035 0.595492 678.211 0.595492 678.211L0 0Z" id="path_1" />
+  </defs>
+  <g id="backGroundcurvebottom">
+    <path d="M0 35L412.001 35L412 795C412 795 403.516 804.084 359.5 795C315.484 785.917 303.649 771.028 272.197 751.346C272.197 751.346 204.428 692.962 150 673.5C95.5718 654.038 54.4844 673.5 54.4844 673.5C17.1333 689.326 0.595492 707.001 0.595492 707.001L0 35Z" id="Rectángulo" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+    <g id="Rectángulo">
+      <use stroke="none" fill="url(#gradient_2)" xlink:href="#path_1" fill-rule="evenodd" filter="url(#filter_1)" />
+    </g>
+  </g>
+</svg>
